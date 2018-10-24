@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObjectAnimByPathActivity">
+
+    <ImageView
+        android:id="@+id/imageview_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/refresh"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/triangle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Triangle"
+            android:padding="@dimen/dp5"/>
+        <Button
+            android:id="@+id/rectangle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rectangle"
+            android:padding="@dimen/dp5"/>
+        <Button
+            android:id="@+id/circle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Circle"
+            android:padding="@dimen/dp5"/>
+        <Button
+            android:id="@+id/sine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sine"
+            android:padding="@dimen/dp5"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

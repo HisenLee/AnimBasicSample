@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="text_view1">Tween Animation -- Alpha Anim</string>
+    <string name="text_view2">Tween Animation -- Scale Anim</string>
+    <string name="text_view3">Tween Animation -- Translate Anim</string>
+    <string name="text_view4">Tween Animation -- Rotate Anim</string>
+    <string name="text_view5">Frame Animation</string>
+    <string name="text_view6">Property Animation: ValueAnimator</string>
+    <string name="text_view7">Property Animation: ObjectAnimator</string>
+    <string name="text_view8">Object Animator By Path</string>
+
+    <string name="title_activity_alpha_anim">AlphaAnimActivity</string>
+
+    <string name="too_small">You cannot find me, alright</string>
+    <string name="text_ad1">10% OFF $998</string>
+    <string name="text_sign">$$</string>
+    <string name="title_activity_object_anim_by_path">ObjectAnimByPathActivity</string>
+
+</resources>
